@@ -60,7 +60,7 @@ def fig_cost_improvement():
     ax.axvline(3.52, color="gray", ls=":", lw=0.8)
     ax.text(3.35, 45, "ref.: flag no one", ha="right", va="top", fontsize=7, color="gray")
     ax.text(3.7, 45, "ref.: flag everyone", ha="left", va="top", fontsize=7, color="gray")
-    ax.legend(ncol=2, loc="upper right")
+    ax.legend(ncol=2, loc="upper right", bbox_to_anchor=(1.0, 0.9))
     save(fig, C.FIG_DIR / "fig_cost_improvement")
 
 
