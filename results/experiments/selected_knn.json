@@ -1,0 +1,14 @@
+{
+  "model": "knn",
+  "params": {
+    "n_neighbors": 201
+  },
+  "n_configs": 6,
+  "cv_ap_mean": 0.5161768551406538,
+  "cv_ap_std": 0.006943317483611708,
+  "cv_roc_auc_mean": 0.7582916494196914,
+  "cv_roc_auc_std": 0.004536589660176963,
+  "cv_brier_mean": 0.14178806988136178,
+  "oof_brier_skill": 0.17712948473338685,
+  "fit_seconds_mean": 0.00806634180044057
+}

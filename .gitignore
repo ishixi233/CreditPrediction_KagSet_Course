@@ -1,0 +1,27 @@
+.DS_Store
+
+# Python 本地环境与缓存
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# 本地凭据
+.env
+.env.*
+!.env.example
+
+# 往届样例材料，仅本地参考，不上传
+Final Sample/
+
+# LaTeX 编译中间文件
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
